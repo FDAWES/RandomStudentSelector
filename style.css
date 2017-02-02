@@ -1,0 +1,16 @@
+#selectedStudent{
+	text-align: center;
+	font-size: 100px;
+	font-weight: bolder;
+	color: #034f84;
+}
+
+#instructions{
+	display: none;
+	font-style: italic;
+	color:#c83349;
+	border-width:2px;
+	border-style: dotted;
+	text-align: center;
+	border color: black;
+}

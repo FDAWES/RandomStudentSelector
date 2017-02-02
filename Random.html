@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Student Selector</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron">
+			<h3>Select a file containing your list of students:</h3>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="input-group input-group-lg">
+						<span class="input-group-addon" id="sizing-addon3"></span>
+						<input id="file" type="file" class="form-control" placeholder="Select a file" aria-describedby="sizing-addon3">
+					</div>
+					
+				</div>
+				<div class="col-lg-4">
+					<h4 id="instructions">Hit Enter to Generate a Name</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>This Question Goes To:</h1>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12" >
+					<h1 id="selectedStudent"></h1>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="random.js"></script>
+</html>
